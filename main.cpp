@@ -49,8 +49,8 @@ void sand_vs_slope() {
     double x;
     cin >> x;
 
-    double temperature = lr.predict(x);
-    cout << "Estimated slope: " << temperature << endl;
+    double predictedSlope = lr.predict(x);
+    cout << "Estimated slope: " << predictedSlope << endl;
 }
 
 void fires_vs_theft() {
@@ -77,8 +77,8 @@ void fires_vs_theft() {
     double x;
     cin >> x;
 
-    double temperature = lr.predict(x);
-    cout << "Estimated theft: " << temperature << endl;
+    double predictedTheft = lr.predict(x);
+    cout << "Estimated theft: " << predictedTheft << endl;
 }
 
 int main() {
